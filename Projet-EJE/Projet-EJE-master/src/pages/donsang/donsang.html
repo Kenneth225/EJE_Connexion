@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Eligibilité</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p class="ent">Suis-je éligible au don de sang ?</p>
+
+  <p class="intro">Avant de vous rendre dans l’un de nos sites
+     ou collectes et si vous avez entre 18 et 70 ans,
+      répondez à ces quelques questions pour savoir si
+       vous pouvez donner votre sang.
+  </p>
+
+  <ion-grid>
+        <ion-row>
+          <ion-col>
+              <button ion-button full round (click)="gotoQuizhe()">Homme</button>        
+          </ion-col>
+          <ion-col>
+              <button ion-button full round (click)="gotoQuizfe()">Femme</button>  
+          </ion-col>
+        </ion-row>
+  </ion-grid>
+
+
+</ion-content>

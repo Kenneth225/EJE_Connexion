@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+ici mettre les instructions pour l'équipe .
+
+-on travaille sur des braches differents nous permettrait facilement de controler la programmation vu on controle des fonctionnalité diférentes
+et chaque branche conviendra a une fonctionnalité.
+
+-Donc jai créer deux branchs :
+accueil(E) : pour la premiere foctionnalité 
+back_end(L): pour ton integration de la base de données 
+
+- Deux branches existent deja..
+git branch pour voir .
+
+Rappels Enock
+--------
+*ouvrir le fichier .gitignore pour voir 
+
+
+
+
+NB:légende
+----------
+
+*Devant les branches mettre tirait la premiere de son initial pour signifier à l'autre que c'est a lui. exemple : accueil-E
+E pour Enock 
+L pour Laéticia , jespere que jai bien ecrit le prénom.
+
+=======
+ici mettre les instructions pour l'équipe 
+>>>>>>> parent of d06f43f... lire le fichier collaboration.txt en premier

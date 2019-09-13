@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Homme</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+      Question 
+    </ion-card-content>
+    <ion-grid>
+      <ion-row class="albtn">
+        <ion-col>
+          <button ion-button (click)="nteligible()">oui</button>
+        </ion-col>
+        <ion-col>
+          <button class="nxt0" ion-button (click)="nextcnt()">non</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>  
+
+  <ion-card >
+      <ion-card-content>
+        Question 2 
+      </ion-card-content>
+      <ion-grid>
+        <ion-row class="albtn" >
+          <ion-col>
+            <button ion-button [disabled]="!statut" (click)="nteligible()">oui</button>
+          </ion-col>
+          <ion-col>
+            <button ion-button (click)="nextcnt()">non</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+<!-- revenir sur le code en surpprimant le commantaire
+    <ion-card>
+        <ion-card-content>
+          iej
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card>
+          <ion-card-content>
+            iej
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+            <ion-card-content>
+              iej
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card>
+              <ion-card-content>
+                iej
+              </ion-card-content>
+            </ion-card>
+
+            <ion-card>
+                <ion-card-content>
+                  iej
+                </ion-card-content>
+              </ion-card>
+            -->
+</ion-content>
